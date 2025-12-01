@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Contact – Net gadgets</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="page">
+        <nav class="nav">
+            <div class="nav-left">
+                <div class="logo">
+                    <img src="images/iphonelogo.jpg" alt="Net gadgets logo">
+                </div>
+
+                    <div class="brand">Net gadgets</div>
+                    <div class="sub">The Apple Gadgets</div>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="iphones.html">Shop iPhones</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+        </nav>
+
+        <section class="section">
+            <h1>Contact &amp; Orders</h1>
+            <p>You can order any iPhone directly via WhatsApp or call.</p>
+
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <h2>WhatsApp Orders</h2>
+                    <p>Send us the model, colour, storage and your delivery address.</p>
+                    <a class="btn" href="https://wa.me/27601001365" target="_blank">
+                        💬 Message on WhatsApp
+                    </a>
+                    <p class="hint">Number: +27 60 100 1365</p>
+                </div>
+
+                <div class="contact-card">
+                    <h2>Call Us</h2>
+                    <p>Prefer to talk? Phone us for availability, deals and lay-by options.</p>
+                    <a class="btn btn-outline" href="tel:+27601001365">📞 Call +27 60 100 1365</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Business Info</h2>
+            <ul class="list">
+                <li>Category: Shopping &amp; Retail</li>
+                <li>Premium reseller – brand new &amp; pre-owned iPhones</li>
+                <li>Delivery: 1–3 working days (while stock lasts)</li>
+                <li>Open 24 hours</li>
+            </ul>
+        </section>
+
+        <footer>© <span id="year"></span> Net gadgets – The Apple Gadgets.</footer>
+    </div>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
