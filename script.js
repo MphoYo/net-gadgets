@@ -1,19 +1,19 @@
-// PHONE DATA – you can change prices & colours here
+// PHONE DATA – updated with new prices & JPG images
 const iphoneModels = [
     // Older Models
     {
         name: "iPhone 8",
         generation: "8-XS",
-        price: "From R3 500",
+        price: "From R2 500",
         colors: ["Black", "Silver", "Gold", "Red"],
         storage: ["64GB", "128GB", "256GB"],
-        image: "images/iphone8.jpg"   // UPDATED
+        image: "images/iphone8.jpg"
     },
 
     {
         name: "iPhone 8 Plus",
         generation: "8-XS",
-        price: "From R4 000",
+        price: "From R3 500",
         colors: ["Black", "Silver", "Gold", "Red"],
         storage: ["64GB", "128GB", "256GB"],
         image: "images/iphone8plus.jpg"
@@ -34,16 +34,16 @@ const iphoneModels = [
         price: "From R4 800",
         colors: ["Black", "White", "Blue", "Yellow", "Coral", "Red"],
         storage: ["64GB", "128GB", "256GB"],
-        image: "images/iphonexr.png"
+        image: "images/iphonexr.jpg"
     },
 
     {
         name: "iPhone XS",
         generation: "8-XS",
-        price: "From R5 000",
+        price: "From R4 000",
         colors: ["Space Grey", "Silver", "Gold"],
         storage: ["64GB", "256GB", "512GB"],
-        image: "images/iphonexs.png"
+        image: "images/iphonexs.jpg"
     },
 
     {
@@ -52,35 +52,35 @@ const iphoneModels = [
         price: "From R5 500",
         colors: ["Space Grey", "Silver", "Gold"],
         storage: ["64GB", "256GB", "512GB"],
-        image: "images/iphonexsmax.png"
+        image: "images/iphonexsmax.jpg"
     },
 
     // iPhone 11 Series
     {
         name: "iPhone 11",
         generation: "11",
-        price: "From R6 000",
+        price: "From R5 500",
         colors: ["Black", "White", "Green", "Purple", "Yellow", "Red"],
         storage: ["64GB", "128GB", "256GB"],
-        image: "images/iphone11.png"
+        image: "images/iphone11.jpg"
     },
 
     {
         name: "iPhone 11 Pro",
         generation: "11",
-        price: "From R7 500",
+        price: "From R6 800",
         colors: ["Space Grey", "Silver", "Gold", "Midnight Green"],
         storage: ["64GB", "256GB", "512GB"],
-        image: "images/iphone11pro.png"
+        image: "images/iphone11pro.jpg"
     },
 
     {
         name: "iPhone 11 Pro Max",
         generation: "11",
-        price: "From R8 000",
+        price: "From R8 900",
         colors: ["Space Grey", "Silver", "Gold", "Midnight Green"],
         storage: ["64GB", "256GB", "512GB"],
-        image: "images/iphone11promax.png"
+        image: "images/iphone11promax.jpg"
     },
 
     // iPhone SE
@@ -90,7 +90,7 @@ const iphoneModels = [
         price: "From R4 000",
         colors: ["Black", "White", "Red"],
         storage: ["64GB", "128GB", "256GB"],
-        image: "images/iphonese.png"
+        image: "images/iphonese.jpg"
     },
 
     // iPhone 12 Series
@@ -100,34 +100,34 @@ const iphoneModels = [
         price: "From R7 000",
         colors: ["Black", "White", "Blue", "Green", "Purple", "Red"],
         storage: ["64GB", "128GB", "256GB"],
-        image: "images/iphone12mini.png"
+        image: "images/iphone12mini.jpg"
     },
 
     {
         name: "iPhone 12",
         generation: "12",
-        price: "From R7 500",
+        price: "From R6 500",
         colors: ["Black", "White", "Blue", "Green", "Purple", "Red"],
         storage: ["64GB", "128GB", "256GB"],
-        image: "images/iphone12.png"
+        image: "images/iphone12.jpg"
     },
 
     {
         name: "iPhone 12 Pro",
         generation: "12",
-        price: "From R8 500",
+        price: "From R8 000",
         colors: ["Graphite", "Silver", "Gold", "Pacific Blue"],
         storage: ["128GB", "256GB", "512GB"],
-        image: "images/iphone12pro.png"
+        image: "images/iphone12pro.jpg"
     },
 
     {
         name: "iPhone 12 Pro Max",
         generation: "12",
-        price: "From R9 500",
+        price: "From R9 000",
         colors: ["Graphite", "Silver", "Gold", "Pacific Blue"],
         storage: ["128GB", "256GB", "512GB"],
-        image: "images/iphone12promax.png"
+        image: "images/iphone12promax.jpg"
     },
 
     // iPhone 13 Series
@@ -137,44 +137,44 @@ const iphoneModels = [
         price: "From R8 000",
         colors: ["Midnight", "Starlight", "Blue", "Pink", "Green"],
         storage: ["128GB", "256GB", "512GB"],
-        image: "images/iphone13mini.png"
+        image: "images/iphone13mini.jpg"
     },
 
     {
         name: "iPhone 13",
         generation: "13",
-        price: "From R8 500",
+        price: "From R7 500",
         colors: ["Midnight", "Starlight", "Blue", "Pink", "Green"],
         storage: ["128GB", "256GB", "512GB"],
-        image: "images/iphone13.png"
+        image: "images/iphone13.jpg"
     },
 
     {
         name: "iPhone 13 Pro",
         generation: "13",
-        price: "From R10 000",
+        price: "From R9 200",
         colors: ["Graphite", "Silver", "Gold", "Sierra Blue", "Alpine Green"],
         storage: ["128GB", "256GB", "512GB", "1TB"],
-        image: "images/iphone13pro.png"
+        image: "images/iphone13pro.jpg"
     },
 
     {
         name: "iPhone 13 Pro Max",
         generation: "13",
-        price: "From R11 000",
+        price: "From R9 900",
         colors: ["Graphite", "Silver", "Gold", "Sierra Blue", "Alpine Green"],
         storage: ["128GB", "256GB", "512GB", "1TB"],
-        image: "images/iphone13promax.png"
+        image: "images/iphone13promax.jpg"
     },
 
     // iPhone 14 Series
     {
         name: "iPhone 14",
         generation: "14",
-        price: "From R11 500",
+        price: "From R9 500",
         colors: ["Midnight", "Starlight", "Blue", "Purple", "Yellow", "Red"],
         storage: ["128GB", "256GB", "512GB"],
-        image: "images/iphone14.png"
+        image: "images/iphone14.jpg"
     },
 
     {
@@ -183,35 +183,35 @@ const iphoneModels = [
         price: "From R12 000",
         colors: ["Midnight", "Starlight", "Blue", "Purple", "Yellow", "Red"],
         storage: ["128GB", "256GB", "512GB"],
-        image: "images/iphone14plus.png"
+        image: "images/iphone14plus.jpg"
     },
 
     {
         name: "iPhone 14 Pro",
         generation: "14",
-        price: "From R14 000",
+        price: "From R10 500",
         colors: ["Space Black", "Silver", "Gold", "Deep Purple"],
         storage: ["128GB", "256GB", "512GB", "1TB"],
-        image: "images/iphone14pro.png"
+        image: "images/iphone14pro.jpg"
     },
 
     {
         name: "iPhone 14 Pro Max",
         generation: "14",
-        price: "From R15 000",
+        price: "From R12 500",
         colors: ["Space Black", "Silver", "Gold", "Deep Purple"],
         storage: ["128GB", "256GB", "512GB", "1TB"],
-        image: "images/iphone14promax.png"
+        image: "images/iphone14promax.jpg"
     },
 
     // iPhone 15 Series
     {
         name: "iPhone 15",
         generation: "15",
-        price: "From R16 000",
+        price: "From R10 500",
         colors: ["Black", "Blue", "Pink", "Yellow", "Green"],
         storage: ["128GB", "256GB", "512GB"],
-        image: "images/iphone15.png"
+        image: "images/iphone15.jpg"
     },
 
     {
@@ -220,25 +220,25 @@ const iphoneModels = [
         price: "From R17 000",
         colors: ["Black", "Blue", "Pink", "Yellow", "Green"],
         storage: ["128GB", "256GB", "512GB"],
-        image: "images/iphone15plus.png"
+        image: "images/iphone15plus.jpg"
     },
 
     {
         name: "iPhone 15 Pro",
         generation: "15",
-        price: "From R19 000",
+        price: "From R14 050",
         colors: ["Black Titanium", "White Titanium", "Blue Titanium", "Natural Titanium"],
         storage: ["128GB", "256GB", "512GB", "1TB"],
-        image: "images/iphone15pro.png"
+        image: "images/iphone15pro.jpg"
     },
 
     {
         name: "iPhone 15 Pro Max",
         generation: "15",
-        price: "From R21 000",
+        price: "From R16 800",
         colors: ["Black Titanium", "White Titanium", "Blue Titanium", "Natural Titanium"],
         storage: ["256GB", "512GB", "1TB"],
-        image: "images/iphone15promax.png"
+        image: "images/iphone15promax.jpg"
     }
 ];
 
