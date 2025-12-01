@@ -26,76 +26,61 @@ a {
     padding: 24px 20px 60px;
 }
 
-
-/* =============== NAVIGATION =============== */
-/* NAVIGATION WRAPPER */
+/* NAV BAR FIX */
 .nav {
     display: flex;
     justify-content: space-between;
-    /* space between logo and menu */
     align-items: center;
-    /* center items vertically */
-    padding: 10px 0;
-    margin-bottom: 20px;
+    padding: 15px 0;
 }
 
-/* LEFT SIDE (logo + name) */
+/* LOGO + TITLE ON LEFT */
 .nav-left {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-/* NAV CONTAINER */
-.nav {
-    display: flex;
-    justify-content: space-between;
-    /* left = logo, right = menu */
-    align-items: center;
-    padding: 10px 0;
+    flex-shrink: 0;
 }
 
-/* LEFT SIDE (logo + name) */
-.nav-left {
+/* LOGO IMAGE */
+.logo img {
+    height: 50px;
+    width: auto;
+    border-radius: 8px;
+}
+
+/* BRAND TEXT */
+.brand-box {
     display: flex;
-    align-items: center;
-    gap: 10px;
+    flex-direction: column;
+}
+
+.brand {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.sub {
+    font-size: 0.8rem;
+    color: #d6ebff;
 }
 
 /* NAV LINKS ON RIGHT */
 .nav-links {
     display: flex;
+    align-items: center;
     gap: 25px;
-}
-
-/* VERY IMPORTANT: LIMIT LOGO SIZE */
-.logo img {
-    height: 55px;
-    /* you can change to 40/60 etc */
-    width: auto;
-    border-radius: 8px;
-}
-
-.brand {
-    font-weight: 700;
-    font-size: 1.1rem;
-}
-
-.sub {
-    font-size: 0.8rem;
-    opacity: 0.7;
+    flex-shrink: 0;
 }
 
 .nav-links a {
-    margin-left: 16px;
-    font-size: 0.95rem;
-    opacity: 0.7;
-    transition: 0.3s;
+    color: #d6ebff;
+    text-decoration: none;
+    font-weight: 500;
 }
 
-.nav-links a:hover,
-.nav-links a.active {
-    opacity: 1;
-    color: #7fcdff;
+.nav-links a:hover {
+    color: #ffffff;
 }
 
 
